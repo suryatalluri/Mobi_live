@@ -1,4 +1,4 @@
-Application.$controller("MainPageController", ["$scope", function ($scope) {
+Application.$controller("PagePageController", ["$scope", function ($scope) {
     "use strict";
 
     /* perform any action with the variables inside this block(on-page-load) */
@@ -20,14 +20,7 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
 }]);
 
 
-Application.$controller("liveform1Controller", ["$scope",
-	function($scope) {
-		"use strict";
-		$scope.ctrlScope = $scope;
-	}
-]);
-
-Application.$controller("liveform2Controller", ["$scope",
+Application.$controller("livefilter1Controller", ["$scope",
 	function($scope) {
 		"use strict";
 		$scope.ctrlScope = $scope;
